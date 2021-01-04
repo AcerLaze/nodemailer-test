@@ -13,8 +13,8 @@ async function main() {
     //Verify success email authentication
     await transporter.verify()
     let mailOptions = {
-        from: 'OwO@customUwU.com',
-        to: 'jason.william@ad-ins.com',
+        from: 'no-reply@email.com',
+        to: 'example@email.com',
         subject: 'O w O',
         text: 'Hewwo !'
     }
